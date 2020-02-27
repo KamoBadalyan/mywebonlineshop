@@ -1,0 +1,1 @@
+package org.onlineshop.service;import org.onlineshop.model.Users;public interface UsersService {    public void addUsers(Users users);    Users findUserByusername(String username);}

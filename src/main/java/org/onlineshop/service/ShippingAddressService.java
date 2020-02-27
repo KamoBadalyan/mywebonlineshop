@@ -1,0 +1,1 @@
+package org.onlineshop.service;import org.onlineshop.model.ShippingAddress;public interface ShippingAddressService {    public void addShippingAddress(ShippingAddress shippingAddress);    ShippingAddress getShippingAddressById(long shippingAddressId);}

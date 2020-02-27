@@ -1,0 +1,1 @@
+package org.onlineshop.service;import org.onlineshop.model.BillingAddress;public interface BillingAddressService {    public void addBillingAddress(BillingAddress billingAddress);    BillingAddress getBillingAddressbyId(long billingAddressId);}

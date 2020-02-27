@@ -1,0 +1,1 @@
+package org.onlineshop.service;import java.io.IOException;import org.onlineshop.model.Cart;public interface CartService {    public void addCart(Cart cart);    public Cart getCartById(long cartId);    Cart validateCustomer(long cartId) throws IOException;}

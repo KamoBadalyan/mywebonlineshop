@@ -1,0 +1,1 @@
+package org.onlineshop.service;import org.onlineshop.model.Authorities;public interface AuthoritiesService {    public void addAuthorities(Authorities authorities);    Authorities findAuthoritiesByusername(String username);}
